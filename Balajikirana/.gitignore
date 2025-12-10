@@ -1,0 +1,62 @@
+# ==========================
+# Java & Maven
+# ==========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# ==========================
+# Eclipse files
+# ==========================
+.project
+.classpath
+.settings/
+.metadata/
+.recommenders/
+bin/
+
+# ==========================
+# IntelliJ (IDEA)
+# ==========================
+.idea/
+*.ipr
+*.iws
+
+# ==========================
+# MacOS junk files
+# ==========================
+.DS_Store
+**/.DS_Store
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Tomcat deployment folders
+# ==========================
+wtpwebapps/
+**/wtpwebapps/
+
+# ==========================
+# Node/NPM (if used for UI)
+# ==========================
+node_modules/
+
+# ==========================
+# Env files
+# ==========================
+.env
+*.env
+
+# ==========================
+# Upload folder (optional)
+# Category images etc.
+# If you don't want images in GitHub then uncomment:
+# category/
+# product_images/
